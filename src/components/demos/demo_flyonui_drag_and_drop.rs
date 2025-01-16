@@ -3,6 +3,8 @@ use leptos::prelude::*;
 #[component]
 pub fn DemoFlyonUIDragAndDrop() -> impl IntoView {
     view! {
+        <script src="/dragAndDrop.js"></script>
+
         <ul
             id="list-example"
             class="border-base-content/25 divide-base-content/25 flex flex-col divide-y rounded-md border *:cursor-move *:p-3 first:*:rounded-t-md last:*:rounded-b-md"
@@ -33,22 +35,5 @@ pub fn DemoFlyonUIDragAndDrop() -> impl IntoView {
                 <span class="icon-[tabler--grip-vertical] text-base-content ms-auto size-4 shrink-0"></span>
             </li>
         </ul>
-
-        <script>
-            window.addEventListener("load", () => {
-                (function () {
-                    // Basic example
-                    const listExample = document.querySelector("#list-example");
-
-                    if (listExample) {
-                        Sortable.create(listExample, {
-                            animation: 150,
-                            dragClass: "!border-0"
-                        })
-                    }
-                })()
-            })
-        // Basic example
-        </script>
     }
 }
