@@ -5,6 +5,7 @@ use crate::components::demos::{
     demo_flyonui_context_menu::DemoFlyonUIContextMenu,
     demo_flyonui_drag_and_drop::DemoFlyonUIDragAndDrop,
     demo_flyonui_drag_and_drop_cards::DemoFlyonUIDragAndDropCards,
+    demo_flyonui_form_validation::DemoFlyonUIFormValidation,
 };
 
 #[component]
@@ -23,6 +24,8 @@ pub fn PageHome() -> impl IntoView {
 
             <DemoFlyonUIDragAndDrop />
             <DemoFlyonUIDragAndDropCards />
+
+            <DemoFlyonUIFormValidation />
         </div>
     }
 }
