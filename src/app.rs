@@ -17,6 +17,7 @@ pub fn shell(options: LeptosOptions) -> impl IntoView {
                 // <link href="/bootstrap-5.3.3.min.css" rel="stylesheet" crossorigin="anonymous" />
                 // <script src="/bootstrap.bundle-5.3.3.min.js" crossorigin="anonymous" />
                 <script src="../node_modules/flyonui/dist/js/flyonui.js"></script>
+                <script src="../node_modules/sortablejs/Sortable.min.js"></script>
 
                 <AutoReload options=options.clone() />
                 <HydrationScripts options />

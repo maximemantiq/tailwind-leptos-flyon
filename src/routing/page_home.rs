@@ -2,6 +2,8 @@ use leptos::prelude::*;
 
 use crate::components::demos::{
     demo_button_rustui::DemoButtonRustUI, demo_flyonui_button::DemoFlyonUIButton,
+    demo_flyonui_context_menu::DemoFlyonUIContextMenu,
+    demo_flyonui_drag_and_drop::DemoFlyonUIDragAndDrop,
 };
 
 #[component]
@@ -14,7 +16,11 @@ pub fn PageHome() -> impl IntoView {
             // <DemoButtonBootstrap />
             <DemoFlyonUIButton />
 
-        // <DemoFlyonUISidebar />
+            // <DemoFlyonUISidebar />
+
+            <DemoFlyonUIContextMenu />
+
+            <DemoFlyonUIDragAndDrop />
         </div>
     }
 }
