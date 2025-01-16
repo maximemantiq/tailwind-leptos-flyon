@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --mybackground: 0 0% 98%;
+    --myforeground: 240 10% 3.9%;
+    --mycard: 0 0% 100%;
+    --mycard-foreground: 240 10% 3.9%;
+    --mypopover: 0 0% 100%;
+    --mypopover-foreground: 240 10% 3.9%;
+    --myprimary: 240 7% 10%;
+    --myprimary-foreground: 0 0% 90%;
+    --mysecondary: 240 4.8% 95.9%;
+    --mysecondary-foreground: 240 7% 10%;
+    --mymuted: 240 4.8% 95.9%;
+    --mymuted-foreground: 240 3.8% 46.1%;
+    --myaccent: 240 4.8% 95.9%;
+    --myaccent-foreground: 240 7% 10%;
+    --mysuccess: 81 37% 44%;
+    --mysuccess-foreground: 71 44% 95%;
+    --mywarning: 32 95% 44%;
+    --mywarning-foreground: 48 100% 96%;
+    --myerror: 14 100% 53%;
+    --myerror-foreground: 0 86% 97%;
+    --mydestructive: 0 72.22% 50.59%;
+    --mydestructive-foreground: 0 86% 97%;
+    --myborder: 240 7% 80%;
+    --myinput: 240 7% 90%;
+    --myring: 240 5% 64.9%;
+    --myradius: 0.5rem;
+  }
+
+  .dark {
+    --mybackground: 240 3% 11.5%;
+    --myforeground: 0 0% 98%;
+    --mycard: 240 3% 10%;
+    --mycard-foreground: 0 0% 70%;
+    --mypopover: 240 3% 10%;
+    --mypopover-foreground: 0 0% 98%;
+    --myprimary: 0 0% 80%;
+    --myprimary-foreground: 240 7% 16%;
+    --mysecondary: 240 3.7% 15.9%;
+    --mysecondary-foreground: 0 0% 98%;
+    --mymuted: 240 3.7% 15.9%;
+    --mymuted-foreground: 240 5% 64.9%;
+    --myaccent: 240 3.7% 15.9%;
+    --myaccent-foreground: 0 0% 98%;
+    --mydestructive: 0 62.8% 30.6%;
+    --mydestructive-foreground: 0 85.7% 97.3%;
+    --myborder: 240 3.7% 30%;
+    --myinput: 240 3.7% 20%;
+    --myring: 240 4.9% 83.9%;
+  }
+}
+
