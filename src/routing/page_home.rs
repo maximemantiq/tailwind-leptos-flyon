@@ -14,6 +14,7 @@ pub fn PageHome() -> impl IntoView {
             // <DemoButtonBootstrap />
             <DemoFlyonUIButton />
 
+        // <DemoFlyonUISidebar />
         </div>
     }
 }
