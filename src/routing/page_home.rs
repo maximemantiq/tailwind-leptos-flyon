@@ -4,6 +4,7 @@ use crate::components::demos::{
     demo_button_rustui::DemoButtonRustUI, demo_flyonui_button::DemoFlyonUIButton,
     demo_flyonui_context_menu::DemoFlyonUIContextMenu,
     demo_flyonui_drag_and_drop::DemoFlyonUIDragAndDrop,
+    demo_flyonui_drag_and_drop_cards::DemoFlyonUIDragAndDropCards,
 };
 
 #[component]
@@ -21,6 +22,7 @@ pub fn PageHome() -> impl IntoView {
             <DemoFlyonUIContextMenu />
 
             <DemoFlyonUIDragAndDrop />
+            <DemoFlyonUIDragAndDropCards />
         </div>
     }
 }
